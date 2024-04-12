@@ -1,0 +1,16 @@
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"node app.js\" \"node orderApp.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ioredis": "*",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
